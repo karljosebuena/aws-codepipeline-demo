@@ -41,6 +41,7 @@ const Counter = () => {
 
   return (
     <div>
+      <h2>Test App for AWS CICD with codepipeline + codebuild</h2>
       <CounterValue data-testid="counter-value">Count: {counter}</CounterValue>
       <ButtonRow>
         <Button onClick={() => dispatch(-2)}>-2</Button>
